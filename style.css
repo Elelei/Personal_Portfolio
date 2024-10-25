@@ -242,10 +242,11 @@ h2 {
 }
 
 .info {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   margin-top: 15px;
   margin-bottom: 25px;
+
 }
 .para {
   font-size: 20px;
@@ -269,6 +270,17 @@ h2 {
 
 .progress-bar {
   background-color: #393e46 !important;
+  position: relative;
+}
+
+.progress-bar::after {
+  content: attr(data-skill);
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #fff;
 }
 
 .progress {
