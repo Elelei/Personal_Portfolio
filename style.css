@@ -414,19 +414,24 @@ h2 {
   position: relative;
   z-index: 1;
   font-size: 1.5rem;
-  line-height: 3.5rem;
+  line-height: 1.8rem;
   color: #585d6d;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .testimonial .quote::before {
   content: "\201c";
-  font-size: 12rem;
-  opacity: 0.4;
+  font-size: 8rem;
+  opacity: 0.2;
   font-family: serif;
   font-weight: bold;
   position: absolute;
-  top: 1.8rem;
-  left: -5rem;
+  top: -10px;
+  left: -10px;
   z-index: -1;
+  color: rgb(117, 17, 0);
   pointer-events: none;
 }
 .testimonial .testimonials footer {
@@ -435,14 +440,14 @@ h2 {
 }
 .testimonial .author {
   display: block;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   color: #585d6d;
   margin-bottom: 1rem;
   font-weight: bold;
   margin: 0;
 }
 .testimonial .info {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #b1b4bd;
   width: 60%;
   margin: 0 auto;
@@ -452,6 +457,12 @@ h2 {
   transform: scale(1);
   cursor: pointer;
 }
+
+.testimonial .testimonials li:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 950px) {
   .testimonial .testimonials li {
     max-width: 580px;
