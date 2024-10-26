@@ -32,5 +32,5 @@ To run the website locally, follow these steps:
    ##Contact
 If you'd like to connect, you can reach me via:
 
--Email: manuellelei750@gmail.com.
--GitHub: https://github.com/Elelei.
+-**Email**: manuellelei750@gmail.com.
+-**GitHub**: https://github.com/Elelei.
