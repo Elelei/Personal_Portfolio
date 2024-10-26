@@ -28,3 +28,9 @@ To run the website locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
+
+   ##Contact
+If you'd like to connect, you can reach me via:
+
+-Email: manuellelei750@gmail.com
+-GitHub: https://github.com/Elelei
