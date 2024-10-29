@@ -29,9 +29,9 @@ To run the website locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
 
-##Contact
+## Contact
 
 If you'd like to connect, you can reach me via:
 
--**Email**: manuellelei750@gmail.com.
--**GitHub**: https://github.com/Elelei.
+- **Email**: manuellelei750@gmail.com.
+- **GitHub**: https://github.com/Elelei.
